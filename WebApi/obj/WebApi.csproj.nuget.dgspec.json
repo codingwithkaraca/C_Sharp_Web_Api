@@ -4,14 +4,74 @@
     "/Users/alperkaraca/RiderProjects/WebApi/WebApi/WebApi.csproj": {}
   },
   "projects": {
-    "/Users/alperkaraca/RiderProjects/WebApi/WebApi/WebApi.csproj": {
+    "/Users/alperkaraca/RiderProjects/WebApi/Business/Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alperkaraca/RiderProjects/WebApi/WebApi/WebApi.csproj",
-        "projectName": "WebApi",
-        "projectPath": "/Users/alperkaraca/RiderProjects/WebApi/WebApi/WebApi.csproj",
+        "projectUniqueName": "/Users/alperkaraca/RiderProjects/WebApi/Business/Business.csproj",
+        "projectName": "Business",
+        "projectPath": "/Users/alperkaraca/RiderProjects/WebApi/Business/Business.csproj",
         "packagesPath": "/Users/alperkaraca/.nuget/packages/",
-        "outputPath": "/Users/alperkaraca/RiderProjects/WebApi/WebApi/obj/",
+        "outputPath": "/Users/alperkaraca/RiderProjects/WebApi/Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alperkaraca/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/alperkaraca/RiderProjects/WebApi/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/alperkaraca/RiderProjects/WebApi/DataAccess/DataAccess.csproj"
+              },
+              "/Users/alperkaraca/RiderProjects/WebApi/Entities/Entities.csproj": {
+                "projectPath": "/Users/alperkaraca/RiderProjects/WebApi/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alperkaraca/RiderProjects/WebApi/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alperkaraca/RiderProjects/WebApi/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/alperkaraca/RiderProjects/WebApi/Core/Core.csproj",
+        "packagesPath": "/Users/alperkaraca/.nuget/packages/",
+        "outputPath": "/Users/alperkaraca/RiderProjects/WebApi/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/alperkaraca/.nuget/NuGet/NuGet.Config"
@@ -37,8 +97,183 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alperkaraca/RiderProjects/WebApi/DataAccess/DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alperkaraca/RiderProjects/WebApi/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/Users/alperkaraca/RiderProjects/WebApi/DataAccess/DataAccess.csproj",
+        "packagesPath": "/Users/alperkaraca/.nuget/packages/",
+        "outputPath": "/Users/alperkaraca/RiderProjects/WebApi/DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alperkaraca/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/alperkaraca/RiderProjects/WebApi/Entities/Entities.csproj": {
+                "projectPath": "/Users/alperkaraca/RiderProjects/WebApi/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alperkaraca/RiderProjects/WebApi/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alperkaraca/RiderProjects/WebApi/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/alperkaraca/RiderProjects/WebApi/Entities/Entities.csproj",
+        "packagesPath": "/Users/alperkaraca/.nuget/packages/",
+        "outputPath": "/Users/alperkaraca/RiderProjects/WebApi/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alperkaraca/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/alperkaraca/RiderProjects/WebApi/Core/Core.csproj": {
+                "projectPath": "/Users/alperkaraca/RiderProjects/WebApi/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alperkaraca/RiderProjects/WebApi/WebApi/WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alperkaraca/RiderProjects/WebApi/WebApi/WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "/Users/alperkaraca/RiderProjects/WebApi/WebApi/WebApi.csproj",
+        "packagesPath": "/Users/alperkaraca/.nuget/packages/",
+        "outputPath": "/Users/alperkaraca/RiderProjects/WebApi/WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alperkaraca/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/alperkaraca/RiderProjects/WebApi/Business/Business.csproj": {
+                "projectPath": "/Users/alperkaraca/RiderProjects/WebApi/Business/Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.4, )"
             },

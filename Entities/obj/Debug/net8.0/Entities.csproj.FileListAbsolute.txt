@@ -1,0 +1,16 @@
+/Users/alperkaraca/RiderProjects/WebApi/Entities/bin/Debug/net8.0/Entities.deps.json
+/Users/alperkaraca/RiderProjects/WebApi/Entities/bin/Debug/net8.0/Entities.dll
+/Users/alperkaraca/RiderProjects/WebApi/Entities/bin/Debug/net8.0/Entities.pdb
+/Users/alperkaraca/RiderProjects/WebApi/Entities/bin/Debug/net8.0/Core.dll
+/Users/alperkaraca/RiderProjects/WebApi/Entities/bin/Debug/net8.0/Core.pdb
+/Users/alperkaraca/RiderProjects/WebApi/Entities/obj/Debug/net8.0/Entities.csproj.AssemblyReference.cache
+/Users/alperkaraca/RiderProjects/WebApi/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alperkaraca/RiderProjects/WebApi/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+/Users/alperkaraca/RiderProjects/WebApi/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+/Users/alperkaraca/RiderProjects/WebApi/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+/Users/alperkaraca/RiderProjects/WebApi/Entities/obj/Debug/net8.0/Entities.sourcelink.json
+/Users/alperkaraca/RiderProjects/WebApi/Entities/obj/Debug/net8.0/Entities.csproj.CopyComplete
+/Users/alperkaraca/RiderProjects/WebApi/Entities/obj/Debug/net8.0/Entities.dll
+/Users/alperkaraca/RiderProjects/WebApi/Entities/obj/Debug/net8.0/refint/Entities.dll
+/Users/alperkaraca/RiderProjects/WebApi/Entities/obj/Debug/net8.0/Entities.pdb
+/Users/alperkaraca/RiderProjects/WebApi/Entities/obj/Debug/net8.0/ref/Entities.dll

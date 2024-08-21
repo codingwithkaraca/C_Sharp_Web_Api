@@ -27,22 +27,39 @@ public class BrandManager: IBrandService
         // İşlemin başarı ile yapıldığına dair kullanıcıya veri döndürmek için ise 
         // CreatedBrandResponse türünde nesne oluşturup o nesnenin değerlerine
         // Brand'den yani entity den özellikleri alıp atıyoruz.
+        
+        // mapping -> automapper
         Brand brand = new();
         brand.Name = createBrandRequest.Name;
         brand.CreatedDate = DateTime.Now;
         _brandDal.Add(brand);
         
-        CreatedBrandResponse response = new CreatedBrandResponse();
-        response.Id = 4;
-        response.Name = brand.Name;
-        response.CreatedDate = brand.CreatedDate;
+        CreatedBrandResponse createdBrandResponse = new CreatedBrandResponse();
+        createdBrandResponse.Id = 4;
+        createdBrandResponse.Name = brand.Name;
+        createdBrandResponse.CreatedDate = brand.CreatedDate;
 
-        return response;
+        return createdBrandResponse;
         
     }
 
     public List<GetAllBrandResponse> GetAll()
     {
-        throw new NotImplementedException();
+        List<Brand> brands = _brandDal.GetAll();
+        
+        List<GetAllBrandResponse> getAllBrandResponses = new List<GetAllBrandResponse>();
+
+        foreach (var brand in brands)
+        {
+            GetAllBrandResponse getAllBrandResponse = new GetAllBrandResponse();
+            getAllBrandResponse.Id = brand.Id;
+            getAllBrandResponse.Name = brand.Name;
+            getAllBrandResponse.CreatedDate = brand.CreatedDate;
+            
+            getAllBrandResponses.Add(getAllBrandResponse);
+            
+        }
+        
+        return getAllBrandResponses;
     }
 }
